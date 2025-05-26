@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+  <div class="container header-container">
+<div class="logo">
+  <img src="logo.png" alt="MyBrand Logo" />
+  <span>TASK 1</span>
+</div>
+
+
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section class="hero">
+  <div class="container">
+    <h2>Your Dream Website Starts Here</h2>
+    <p>Create something amazing with us.</p>
+    <a href="https://youtu.be/xvFZjo5PgG0?si=8BvbDltWnVsTv2mP" class="btn">Get Started</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; task1 elevatelab. Follow us:</p>
+    <div class="social">
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const nav = document.getElementById('nav');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
